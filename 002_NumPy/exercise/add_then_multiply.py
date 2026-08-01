@@ -4,4 +4,4 @@ def add_then_multiply(a1, a2, m):
     addition by m.
     """
 
-    return None
+    return (a1 + a2) * m

@@ -8,9 +8,9 @@ def boundary_triangles(F):
     bdry_edges = gpy.boundary_edges(F)
 
     # Find all triangles that contain both vertices of a boundary edge.
-    # HINT: Look at the documentation of the `where` or `nonzero` function in
-    # NumPy.
+    # HINT: Look at the documentation of the `where` or `nonzero` function in NumPy.
     bdry_tri_list = []
+    
     for ei in range(bdry_edges.shape[0]):
         e = bdry_edges[ei,:]
         for fi in range(F.shape[0]):

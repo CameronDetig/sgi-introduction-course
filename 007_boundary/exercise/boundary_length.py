@@ -1,8 +1,7 @@
 import gpytoolbox as gpy, numpy as np
 
 def boundary_length(V,F):
-    """Compute the length of the input mesh V,F's boundary.
-    """
+    """Compute the length of the input mesh V,F's boundary."""
 
     # Compute the boundary edges
     bdry_edges = ?
